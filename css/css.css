@@ -1,0 +1,232 @@
+body {
+  width: 100%;
+  height: auto;
+  overflow-x: hidden;
+  background: bisque;
+}
+
+header {
+  font-size: 2rem;
+  text-align: center;
+  color: black;
+}
+
+#container {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: black solid 1px;
+  height: auto;
+  width: 90%;
+}
+
+#container #box1 {
+  background-color: aqua;
+  width: 30%;
+  height: auto;
+  padding-bottom: 1rem;
+}
+
+#container #box1 #addBtn {
+  margin-left: 7rem;
+  background-color: blue;
+  width: 100px;
+  padding: 10px 20px;
+  color: white;
+  margin-top: 2rem;
+}
+
+#container #box1 #addBtn:hover {
+  cursor: pointer;
+  background-color: aqua;
+  -webkit-box-shadow: 0.2px 0.2px 0.2px #333;
+          box-shadow: 0.2px 0.2px 0.2px #333;
+}
+
+#container #box2 {
+  background-color: greenyellow;
+  width: 30%;
+  height: auto;
+}
+
+#container #box3 {
+  background-color: #34a039;
+  width: 30%;
+  height: auto;
+}
+
+#container #box3 .c {
+  padding-top: 2rem;
+  text-align: center;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: blue;
+}
+
+#container #box3 .c:hover {
+  cursor: pointer;
+}
+
+.task1 {
+  background-color: beige;
+  width: 80%;
+  height: auto;
+  font-size: 1rem;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 1em;
+  margin-left: 11px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0.2px 0.2px 0.2px #333;
+          box-shadow: 0.2px 0.2px 0.2px #333;
+  /*
+   #dits{
+       display: none;
+   }
+*/
+}
+
+.task1 #flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.task1 #flex li {
+  list-style-type: none;
+  font-weight: bold;
+}
+
+.task1 #text {
+  width: 13rem;
+  height: auto;
+  padding-left: 3px;
+  background: red;
+}
+
+.task1 #text:hover {
+  cursor: pointer;
+}
+
+.task1 .delt {
+  position: relative;
+  color: red;
+  left: 3rem;
+}
+
+.task1 .delt:hover {
+  cursor: pointer;
+}
+
+.task1 img {
+  position: relative;
+  left: 1rem;
+  bottom: 5px;
+}
+
+.task1 img:hover {
+  cursor: pointer;
+}
+
+.task1 textarea {
+  width: 13rem;
+  font-family: sans-serif;
+}
+
+.task1 a {
+  color: blue;
+  cursor: pointer;
+  padding-top: 1rem;
+}
+
+.task1:hover {
+  -webkit-box-shadow: 0.8px 0.8px 0.8px #333;
+          box-shadow: 0.8px 0.8px 0.8px #333;
+}
+
+#card {
+  background-color: white;
+  width: 300px;
+  height: auto;
+  border-radius: 20px;
+  padding-top: 1rem;
+  border: 1px solid #162341;
+  z-index: 1000;
+  position: absolute;
+}
+
+#card h1 {
+  font-size: 20px;
+  text-align: center;
+}
+
+#card #one {
+  margin-top: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-left: 2rem;
+}
+
+#card #one label {
+  padding-bottom: 5px;
+}
+
+#card #one input {
+  width: 80%;
+}
+
+#card #two {
+  margin-top: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-left: 2rem;
+}
+
+#card #two label {
+  padding-bottom: 5px;
+}
+
+#card #two textarea {
+  width: 80%;
+  height: auto;
+  padding-bottom: 10px;
+  margin-bottom: 2rem;
+  font-family: sans-serif;
+  padding-left: 1px;
+}
+
+#card button {
+  margin-top: 10px;
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+}
+
+#card a {
+  position: relative;
+  color: blue;
+  cursor: pointer;
+  float: right;
+  margin-right: 2rem;
+  top: 0.8rem;
+}
+/*# sourceMappingURL=css.css.map */

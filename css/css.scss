@@ -1,0 +1,252 @@
+
+
+body {
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+    background: bisque;
+
+}
+
+header {
+  font-size: 2rem;
+  text-align: center;
+  color: black;
+}
+
+ 
+
+#container {
+margin: 0 auto;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+border: black solid 1px;
+height: auto;
+width: 90%;
+    
+    #box1{
+        background-color: aqua;
+        width: 30%;
+        height: auto;
+        padding-bottom: 1rem;
+
+        #addBtn{
+            margin-left: 7rem;
+            background-color: blue;
+            width: 100px;
+            padding: 10px 20px;
+            color: white;
+            margin-top: 2rem;
+            
+          
+        }
+
+        #addBtn:hover {
+
+            cursor: pointer;
+            background-color: aqua;
+            box-shadow: 0.2px 0.2px 0.2px #333;
+      }
+
+        //styling tasks here
+        
+    }
+
+    #box2{
+        background-color: greenyellow;
+        width: 30%;
+        height: auto;
+    }
+
+    #box3{
+        background-color: rgb(52, 160, 57);
+        width: 30%;
+        height: auto;
+
+        .c {
+            padding-top: 2rem;
+            text-align: center;
+            text-decoration-line: underline;
+            color: blue;
+        }
+
+        .c:hover{
+            cursor: pointer;
+        }
+    }
+
+
+
+
+}
+
+
+ //styling tasks here
+
+.task1 {
+    background-color: beige;
+    width: 80%;
+    height: auto;
+    font-size: 1rem;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 1em;
+    margin-left: 11px;
+    border-radius: 5px;
+    box-shadow: 0.2px 0.2px 0.2px #333;
+    /*
+   #dits{
+       display: none;
+   }
+*/
+    #flex{
+        display: flex;
+
+        li{
+            list-style-type: none;
+            font-weight: bold;
+        }
+    }
+    #text{
+    
+    width: 13rem;
+    height: auto;
+    padding-left: 3px;
+    background: red;
+    }
+
+    #text:hover{
+        cursor: pointer;
+    }
+
+    .delt {
+        position: relative;
+        color: red;
+        left:3rem;
+       
+
+        
+    }
+
+    .delt:hover {
+        cursor: pointer;
+    }
+ 
+    img{
+        position: relative;
+        left: 1rem;
+        bottom: 5px;
+        
+    }
+
+    img:hover {
+        cursor: pointer;
+    }
+
+    textarea{
+        width: 13rem;
+        font-family: sans-serif;
+
+    }
+   
+ a{
+     color:blue;
+     cursor: pointer;
+     padding-top: 1rem;
+    
+     
+     
+ }
+
+}
+
+
+
+.task1:hover{
+    
+    box-shadow: 0.8px 0.8px 0.8px #333;
+
+}
+
+
+//the card you fill to add tasks
+#card{
+    background-color: white;
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
+    padding-top: 1rem;
+    border: 1px solid rgb(22, 35, 65);
+    z-index: 1000;
+   // margin-left: 7rem;
+   // margin-bottom: 4rem;
+    position: absolute;
+   
+    
+
+    h1{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    #one{
+        margin-top:1rem;
+        display: flex;
+        flex-direction: column;
+        padding-left: 2rem;
+        
+
+        label{
+            padding-bottom: 5px;
+        }
+
+        input {
+            width: 80%;
+        }
+    }
+
+    #two{
+        margin-top:1rem;
+        display: flex;
+        flex-direction: column;
+        padding-left: 2rem;
+        
+
+        label{
+            padding-bottom: 5px;
+        }
+
+        textarea {
+            width: 80%;
+            height: auto;
+            padding-bottom: 10px;
+            margin-bottom: 2rem;
+            font-family: sans-serif;
+            padding-left: 1px;
+           
+        }
+
+    
+    }
+
+    button{
+        margin-top: 10px;
+        margin-bottom: 1rem;
+        margin-left: 2rem;
+    }
+
+    a {
+        position: relative;
+        color:blue;
+        cursor: pointer;
+        float: right;
+        margin-right: 2rem;
+        top: 0.8rem;
+
+    }
+
+
+}
